@@ -4,6 +4,7 @@
 <body>
   <h1 id="Title"> TejVLabs </h1>
   <div id="About-Main-Paragraph">I am a teenager growing up in Silicon Valley which has greatly influenced my passion for Computer Science and Technology.</div>
+  <button id="Get-About-Data-Button" onclick="linkToAboutData();"></button> 
   <style>
   #Title{
     font-family: "Avenir";
@@ -17,6 +18,7 @@
     document.getElementById("About-Main-Paragraph").style.display("none");
     // More Data to be Hidden
   }
+  defaultHomePage();
   function linkToAboutData(){
     console.log("[TejVLabs Log] User linking to about data");
     document.getElementById("About-Main-Paragraph").style.display("block");
